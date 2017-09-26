@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display None</title>
+    <style>
+        .tablet-only {
+            display: none;
+        }
+        
+        @media all and (min-width: 32rem) and (max-width: 60rem) {
+            .tablet-only {
+                display: inline;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <p class="tablet-only">This text is visible only in a tablet view (between 32 and 60rem).</p>
+    </body>
+</html>

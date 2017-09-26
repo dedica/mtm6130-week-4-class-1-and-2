@@ -1,0 +1,129 @@
+/*SMART PHONE STYLE*/
+/*
+RULE 1:
+Set box-sizing property 
+for every single element
+*/
+
+/*
+RULE 2:
+<body> - Set margin and padding to 0.
+Set text-align to center and smart-phone 
+font-size to 0.667rem
+*/
+
+/*
+RULE 3:
+<header> - Set margin to 1rem - this will 
+push the content away from the edges of 
+web-browser's window.
+*/
+
+/*
+RULE 4:
+Access <ul> from <nav> 
+    Remove bullets and default padding
+    of <ul>
+*/
+
+/*
+RULE 5:
+Access <li> items from <nav> and <ul>.
+    Set <li> items as inline level elements.
+*/
+
+/*
+RULE 6:
+Access <a> elements from <nav>, <ul> and <li>
+Use :link pseudo class for <a>.
+    Remove underline from links and display links 
+    as inline-block elements.
+    Set the full width for links.
+    Set padding and margin-bottom to 1rem.
+    Make thin and pale-grey border around links.
+    Set the font-color to dark-grey.
+*/
+
+/*
+RULE 7:
+If a link is visited, set the 
+pale-grey font-color for it.
+*/
+
+/*
+RULE 8:
+If a link is hovered, set the 
+skyblue as a font-color and aliceblue
+as background-color. Also, change the border 
+color to skyblue.
+*/
+
+/*
+RULE 9:
+If a link is active, set the 
+white as a font-color and black
+as background-color. Also, change the border 
+color to black.
+*/
+
+
+
+
+
+/*STYLE ADJUSTMENT FOR TABLET*/
+@media all and (min-width: 32rem) { 
+    /*
+    RULE 1:
+    <body> - Set tablet 
+    font-size to 1rem
+    */
+    
+    /*
+    RULE 2:
+    Access <a> elements from <nav>, <ul> and <li>
+    Use :link pseudo class for <a>.
+        Set margin-right to 1rem.
+        Set the width of 33.33% minus value of 
+        added margin-right (use calc()).
+    */
+    
+    /*
+    RULE 3:
+    Access <a> element (use :link pseudo class) from 
+    the last <li> and set margin for this link to 0.
+    */  
+}
+
+
+
+
+/*STYLE ADJUSTMENT FOR DESKTOP*/
+@media all and (min-width: 60rem) {
+    /*
+    RULE 1:
+    <body> - Set tablet 
+    font-size to 1.5rem and 
+    align the entire content left.
+    */
+    
+    /*
+    RULE 2:
+    <header> - Set top and bottom margin to 1rem, 
+    and left and right margin to auto. 
+    Set the width of <header> to 58rem.
+    */
+    
+    /*
+    RULE 3:
+    <nav> - Set the top margin of <nav> to 2.5 rem. 
+    */
+    
+    /*
+    RULE 4:
+    Access <a> elements from <nav>, <ul> and <li>
+    Use :link pseudo class for <a>.
+        Display link as inline element.
+        Set top and bottom padding to 1rem, 
+        and left and right padding to 3rem.
+    */
+}
